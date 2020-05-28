@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Noter</string>
+    <string name="app_description">сервис для хранения заметок</string>
+    <string name="icon_menu">Иконка меню</string>
+    <string name="logo">Логотип</string>
+    <string name="register">Регистрация</string>
+    <string name="authorization">Авторизация</string>
+    <string name="name">Имя</string>
+    <string name="surname">Фамилия</string>
+    <string name="email">Почта</string>
+    <string name="password">Пароль</string>
+    <string name="back">Назад</string>
+    <string name="sign_in">Зарегистрироваться</string>
+    <string name="enter">Вход</string>
+    <string name="log_in">Войти</string>
+    <string name="create_account">Создать аккаунт</string>
+    <string name="create_note">Создать заметку</string>
+    <string name="notes">Список заметок</string>
+    <string name="congratulations">Поздравляем!</string>
+    <string name="register_success">Регистрация прошла успешно</string>
+    <string name="profile">Профиль</string>
+    <string name="exit">Выйти</string>
+</resources>

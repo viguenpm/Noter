@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:id="@+id/root"
+    tools:context=".LogInActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/block"
+                android:orientation="horizontal"
+                android:padding="20dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:contentDescription="@string/logo"
+                    android:src="@drawable/name" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/block"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="20dp"
+                    android:text="@string/enter"
+                    android:textColor="@color/baseColor"
+                    android:textSize="36sp" />
+
+                <EditText
+                    android:id="@+id/editTextEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:autofillHints="@string/email"
+                    android:hint="@string/email"
+                    android:textColorHint="@color/textColor"
+                    android:textColor="@color/textColor"
+                    android:background="@drawable/textarea"
+                    android:padding="10dp"
+                    android:layout_marginBottom="20dp"
+                    tools:ignore="LabelFor" />
+
+                <EditText
+                    android:id="@+id/editTextPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:autofillHints="@string/password"
+                    android:hint="@string/password"
+                    android:textColorHint="@color/textColor"
+                    android:textColor="@color/textColor"
+                    android:background="@drawable/textarea"
+                    android:padding="10dp"
+                    android:layout_marginBottom="10dp"
+                    tools:ignore="LabelFor" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="90dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+        <Button
+            android:id="@+id/btnLogIn"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:textColor="@drawable/button_text"
+            android:layout_weight="4"
+            android:layout_width="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/log_in" />
+
+        <Button
+            android:id="@+id/btnCreateAccount"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@drawable/button_not_active"
+            android:textColor="@drawable/button_not_active_text"
+            android:layout_weight="1"
+            android:text="@string/create_account" />
+    </LinearLayout>
+</RelativeLayout>

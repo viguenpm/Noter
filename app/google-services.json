@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "550452874932",
+    "firebase_url": "https://noter-vikonter.firebaseio.com",
+    "project_id": "noter-vikonter",
+    "storage_bucket": "noter-vikonter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550452874932:android:fc18c21c8821ae04f711e1",
+        "android_client_info": {
+          "package_name": "com.vikonter.noter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550452874932-ijsa767d16ojff0m4bv7bojl9iu13vog.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vikonter.noter",
+            "certificate_hash": "dc0747d00da1e095875942829181c7d1c5ff6960"
+          }
+        },
+        {
+          "client_id": "550452874932-1svkv7ljk3atooq0nh2bjaq2ei451jk4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYiQOcOV4CPTHtTLwFy4FtZ5p_SeHPqzc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550452874932-1svkv7ljk3atooq0nh2bjaq2ei451jk4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
